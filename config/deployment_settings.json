@@ -1,0 +1,13 @@
+{
+  "targetDrift": { "enabled": true },
+  "featureDrift": { "enabled": true },
+  "segmentAnalysis": { "enabled": true, "attributes": ["addr_state", "grade"] },
+  "challengerModels": { "enabled": true },
+  "predictionsDataCollection": { "enabled": true },
+  "automaticActuals": { "enabled": false },
+  "associationId": {
+    "requiredInPredictionRequests": true,
+    "columnNames": ["id"]
+  },
+  "biasAndFairness": null
+}

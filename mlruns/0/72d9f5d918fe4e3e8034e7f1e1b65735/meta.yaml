@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/zhilei.ma/vscode/project/lending_club_e2e/mlruns/0/72d9f5d918fe4e3e8034e7f1e1b65735/artifacts
+end_time: 1681332602545
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 72d9f5d918fe4e3e8034e7f1e1b65735
+run_name: resilient-lark-557
+run_uuid: 72d9f5d918fe4e3e8034e7f1e1b65735
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1681332542502
+status: 3
+tags: []
+user_id: zhilei.ma
