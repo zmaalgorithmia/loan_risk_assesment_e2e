@@ -1,8 +1,6 @@
 
 .DS_store
-dataset/
 datarobot_mlflow/
-artifact/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
