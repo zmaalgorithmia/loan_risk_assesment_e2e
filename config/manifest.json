@@ -33,8 +33,8 @@
   },
 
   "training_data": {
-    "file_path": "./dataset/demo_lending_club_training_complete_with_partition.csv",
-    "training_data_id": "63e92440df5b48fc9c39b812"
+    "file_path": "./dataset/DR_Demo_LendingClub_Guardrails.csv",
+    "training_data_id": "61b0d73c19402e954253446a"
   },
 
   "model_package": {
