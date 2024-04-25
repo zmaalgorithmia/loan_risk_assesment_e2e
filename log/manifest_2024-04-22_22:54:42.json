@@ -1,0 +1,82 @@
+{
+    "datarobot_endpoint": "https://app.datarobot.com/api/v2/",
+    "log_path": "./log/",
+    "custom_model": {
+        "name": "[API] Loan Risk Assessment",
+        "target_type": "Binary",
+        "target_name": "loan_status",
+        "positive_class_label": "1",
+        "negative_class_label": "0",
+        "description": "Showcase automated model testing, documentaiton, registeration, and deployment using the DataRobot API.",
+        "language": "Python",
+        "custom_model_id": "6626e3508e3046e0cc7dad0f"
+    },
+    "model_environment": {
+        "model_environment_name": "[DataRobot] Python 3.9 Scikit-Learn Drop-In",
+        "model_environment_id": "5e8c889607389fe0f466c72d",
+        "log_path": "./log/model_build_log_6626e3508e3046e0cc7dad0f_5e8c889607389fe0f466c72d_2024-04-22_22:29:11.txt"
+    },
+    "custom_model_version": {
+        "is_major_update": true,
+        "folder_path": "./deploy",
+        "description": "Model trained using XGBoost and Scikit-Learn Simple Imputer.",
+        "version_id": "6626e3538e3046e0cc7dad14",
+        "version": "v1.0"
+    },
+    "model_test": {
+        "file_path": "./dataset/e2e_lending_club_test_2k.csv",
+        "test_data_id": "6626bed1cb2917582925f2bb",
+        "log_path": "./log/model_test_log_6626e3508e3046e0cc7dad0f_CustomModelVersion('v1.0')_2024-04-22_22:38:02.txt"
+    },
+    "training_data": {
+        "file_path": "./dataset/e2e_lending_club_10k_partitioned.csv",
+        "training_data_id": "6626e0da3aa65d30a979974c"
+    },
+    "model_package": {
+        "model_package_id": "6626e6cbec8424cc85fc1937"
+    },
+    "model_documentation": {
+        "document_type": "MODEL_COMPLIANCE",
+        "output_format": "docx",
+        "file_path": "./model_documentation/",
+        "template_id": "62cc96c64c10f548b87b4918",
+        "template_name": "Customized Model Documentation Binary"
+    },
+    "deployment_settings": {
+        "modelPackageId": "6626e6cbec8424cc85fc1937",
+        "predictionEnvironmentId": "5a61d7a0fbd723001a2f70d9",
+        "label": "[API] Loan Risk Assessment",
+        "importance": "LOW"
+    },
+    "deployment_settings_update": {
+        "targetDrift": {
+            "enabled": true
+        },
+        "featureDrift": {
+            "enabled": true
+        },
+        "segmentAnalysis": {
+            "enabled": true,
+            "attributes": [
+                "addr_state",
+                "grade"
+            ]
+        },
+        "challengerModels": {
+            "enabled": true
+        },
+        "predictionsDataCollection": {
+            "enabled": true
+        },
+        "automaticActuals": {
+            "enabled": false
+        },
+        "associationId": {
+            "requiredInPredictionRequests": true,
+            "columnNames": [
+                "member_id"
+            ]
+        },
+        "biasAndFairness": null
+    }
+}

@@ -3,7 +3,7 @@
   "log_path": "./log/",
 
   "custom_model": {
-    "name": "[API] Kaggle Lending Club XGBoost",
+    "name": "[API] Loan Risk Assessment",
     "target_type": "Binary",
     "target_name": "loan_status",
     "positive_class_label": "1",
@@ -27,14 +27,14 @@
   },
 
   "model_test": {
-    "file_path": "./dataset/demo_lending_club_scoring_10k.csv",
-    "test_data_id": "63e92440fc55a21b06112efe",
+    "file_path": "./dataset/e2e_lending_club_test_2k.csv",
+    "test_data_id": "6626bed1cb2917582925f2bb",
     "log_path": ""
   },
 
   "training_data": {
-    "file_path": "./dataset/DR_Demo_LendingClub_Guardrails.csv",
-    "training_data_id": "61b0d73c19402e954253446a"
+    "file_path": "./dataset/e2e_lending_club_10k_partitioned.csv",
+    "training_data_id": "66059ec49b2d6a16e53456f9"
   },
 
   "model_package": {
